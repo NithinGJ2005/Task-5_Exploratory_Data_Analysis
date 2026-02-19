@@ -1,103 +1,79 @@
 # Task-5_Exploratory_Data_Analysis
-Titanic Exploratory Data Analysis (EDA)
-Project Overview
+cat << 'EOF' > README.md
+# Titanic Exploratory Data Analysis (EDA)
 
-This project performs Exploratory Data Analysis (EDA) on the
-Titanic dataset to identify patterns and key factors that influenced passenger survival.
+## Project Overview
+
+This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to identify patterns and key factors that influenced passenger survival.
 
 The analysis includes statistical summaries, data visualization, and correlation analysis using Python.
 
-Objective
+## Objective
 
-Understand the dataset structure
+- Understand the dataset structure  
+- Perform statistical exploration  
+- Visualize trends and relationships  
+- Identify important survival factors  
+- Summarize key insights  
 
-Perform statistical exploration
+## Tools and Technologies
 
-Visualize trends and relationships
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook / Google Colab / VS Code  
 
-Identify important survival factors
+## Dataset Information
 
-Summarize key insights
+- Total Records: 891  
+- Total Features: 12  
+- Target Variable: Survived  
 
-Tools and Technologies
+### Important Columns
 
-Python
+- Survived  
+- Pclass  
+- Sex  
+- Age  
+- Fare  
+- SibSp  
+- Parch  
+- Embarked  
 
-Pandas
+## Analysis Performed
 
-NumPy
+### Data Exploration
+- .info()  
+- .describe()  
+- .value_counts()  
 
-Matplotlib
+### Visualizations
+- Count plots  
+- Histograms  
+- Boxplots  
+- Pairplots  
+- Correlation heatmap  
 
-Seaborn
+### Relationship Analysis
+- Survival vs Gender  
+- Survival vs Passenger Class  
+- Survival vs Age  
+- Survival vs Fare  
 
-Jupyter Notebook / Google Colab / VS Code
+## Key Insights
 
-Dataset Information
+- Female passengers had significantly higher survival rates.  
+- First-class passengers survived more than second and third class.  
+- Higher ticket fare positively correlated with survival.  
+- Age had moderate influence on survival probability.  
+- Socioeconomic status played an important role in survival outcomes.  
 
-Total Records: 891
+## Project Structure
 
-Total Features: 12
-
-Target Variable: Survived
-
-Important Columns
-
-Survived
-
-Pclass
-
-Sex
-
-Age
-
-Fare
-
-SibSp
-
-Parch
-
-Embarked
-
-Analysis Performed
-Data Exploration
-
-.info()
-
-.describe()
-
-.value_counts()
-
-Visualizations
-
-Count plots
-
-Histograms
-
-Boxplots
-
-Pairplots
-
-Correlation heatmap
-
-Relationship Analysis
-
-Survival vs Gender
-
-Survival vs Passenger Class
-
-Survival vs Age
-
-Survival vs Fare
-
-Key Insights
-
-Female passengers had significantly higher survival rates.
-
-First-class passengers survived more than second and third class.
-
-Higher ticket fare positively correlated with survival.
-
-Age had moderate influence on survival probability.
-
-Socioeconomic status played an important role in survival outcomes.
+Titanic-EDA/
+│
+├── eda.ipynb
+├── titanic.csv
+└── README.md
