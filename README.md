@@ -1,5 +1,4 @@
 # Task-5_Exploratory_Data_Analysis
-cat << 'EOF' > README.md
 # Titanic Exploratory Data Analysis (EDA)
 
 ## Project Overview
@@ -68,12 +67,7 @@ The analysis includes statistical summaries, data visualization, and correlation
 - First-class passengers survived more than second and third class.  
 - Higher ticket fare positively correlated with survival.  
 - Age had moderate influence on survival probability.  
-- Socioeconomic status played an important role in survival outcomes.  
+- Socioeconomic status played an important role in survival outcomes.
 
-## Project Structure
+## Author - Nithin G J
 
-Titanic-EDA/
-│
-├── eda.ipynb
-├── titanic.csv
-└── README.md
